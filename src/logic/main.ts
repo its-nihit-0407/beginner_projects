@@ -107,6 +107,8 @@ const projects: object = {
     },
 };
 
+
+
 for (const [key, value] of Object.entries(projects)) {
   const wrapper = document.createElement("div");
   wrapper.style.textAlign = "center";
