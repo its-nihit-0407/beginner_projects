@@ -1,6 +1,6 @@
 {
   "routes": [
-    { "src": "/dist/(.*)", "dest": "/dist/$1" },
+    { "src": "/public/(.*)", "dest": "/public/$1" },
     { "src": "/src/styles/(.*)", "dest": "/src/styles/$1" },
     { "src": "/src/pages/(.*)", "dest": "/src/pages/$1" },
     { "src": "/", "dest": "/src/pages/index.html" }
