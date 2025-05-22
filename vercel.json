@@ -1,9 +1,9 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "builds": [],
   "routes": [
     { "src": "/dist/(.*)", "dest": "/dist/$1" },
-    { "src": "/src/styles/(.*)", "dest": "/src/styles/$1" },
+    { "src": "/styles/(.*)", "dest": "/src/styles/$1" },
+    { "src": "/", "dest": "/src/pages/index.html" },
     { "src": "/(.*)", "dest": "/src/pages/$1" }
   ]
 }
