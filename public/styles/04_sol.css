@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: spa; */
+    /* align-items: center; */
+    font-family: sans-serif;
+}
+#controller {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+#city {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-left: 10px;
+    border: 2px solid white;    
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+    opacity: 0.7;
+    outline: none;
+
+    color: #212121;
+    /* backdrop-filter: blur(5px);
+     */
+}
+#getWeather{
+    border: 1px solid black;    
+    border-radius: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;   
+    width: 100%;
+    
+}
+
+#getWeather:hover {
+    background-color: #212121;
+    color: #f0f0f0;
+    cursor: pointer;
+} 
