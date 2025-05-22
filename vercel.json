@@ -1,7 +1,6 @@
 {
-  "builds": [
-    { "src": "src/pages/index.html", "use": "@vercel/static" }
-  ],
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "routes": [
     { "src": "/dist/(.*)", "dest": "/dist/$1" },
     { "src": "/src/styles/(.*)", "dest": "/src/styles/$1" },
