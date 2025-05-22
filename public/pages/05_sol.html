@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+  <link rel="stylesheet" href="/styles/05_sol.css">
+</head>
+<body>
+  
+  <header>
+    <h1>💸 Currency Converter</h1>
+  </header>
+
+  <main id="main">
+    <div class="data">
+      <h1 id="output">
+        0.083 United States Dollar
+      </h1>
+    </div>
+
+    <div id="container">
+     <div class="enter_amount">
+       <span id="currency1">CURRENCY:</span>
+      <input type="number" id="amount" placeholder="Enter amount" />
+     </div>
+      
+      <div class="currencies">
+        <select name="currencies" class="currency" id="currency_1"></select>
+        <!-- <input type="number"> -->
+        <select name="currencies" class="currency" id="currency_2"></select>
+    </div>
+  </div>
+  
+  <div class="result">
+    <p style="color: aliceblue;"> Made with ❤️ by <p>
+      <button type="submit" id="submit_btn" onclick="display_cur()">SUBMIT</button>
+    </div>
+    </main>
+  
+
+  <script src="/logic/05_sol.js"></script>
+</body>
+</html>
