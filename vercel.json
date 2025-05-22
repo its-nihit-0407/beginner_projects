@@ -8,8 +8,13 @@
   ],
   "routes": [
     {
+      "src": "/pages/(.*)",
+      "dest": "/pages/$1"
+    },
+    {
       "src": "/(.*)",
-      "dest": "public/$1"
+      "dest": "/index.html",
+      "status": 200
     }
   ]
 }

@@ -61,7 +61,7 @@ const projects: object = {
         level: "Beginner",
         API: "https://api.github.com/users/{username}",
         Task: "Enter GitHub username and display their avatar, name, public repos, and followers.",
-        live_link: "/src/pages/07_sol.html"
+        live_link: "/pages/07_sol.html"
         
     },
     "Weather App": {
@@ -74,7 +74,7 @@ const projects: object = {
         level: "Beginner",
         API: "https://api.exchangerate-api.com/",
         Task: "Convert amount between two selected currencies.",
-        live_link: "/src/pages/05_sol.html"
+        live_link: "/pages/05_sol.html"
         
     },
       
@@ -82,32 +82,30 @@ const projects: object = {
         level: "Beginner",
         API: "https://restcountries.com/v3.1/all",
         Task: "Display a list of countries and allow search by country name.",
-        live_link : "/src/pages/08_sol.html"
+        live_link : "/pages/08_sol.html"
       },
     
     "Show Random User Info": {
         level: "Beginner",
         API: "https://randomuser.me/api/",
         Task: "Show random user's name, email, and profile picture on button click.",
-        live_link: "/src/pages/02_sol.html"
+        live_link: "/pages/02_sol.html"
     },
     
     "Joke Generator": {
         level: "Beginner",
         API: "https://official-joke-api.appspot.com/random_joke",
         Task: "Show a random joke each time a button is clicked.",
-        live_link: "/src/pages/03_sol.html"
+        live_link: "/pages/03_sol.html"
     },
     
     "Fetch and Display JSON Data": {
         level: "Beginner",
         API: "https://jsonplaceholder.typicode.com/posts",
         Task: "Fetch posts and display them in the DOM (title + body).",
-        live_link: "/src/pages/main.html"
+        live_link: "/pages/main.html"
     },
 };
-
-
 
 for (const [key, value] of Object.entries(projects)) {
   const wrapper = document.createElement("div");

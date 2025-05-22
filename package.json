@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && cp -r src/pages/* public/ && cp -r src/styles/* public/styles/",
-    "start": "serve public"
+    "build": "tsc && mkdir -p public/pages && cp -r src/pages/* public/pages/ && cp -r src/styles/* public/styles/",
+    "start": "serve public -s"
 },
   "keywords": [],
   "author": "",
