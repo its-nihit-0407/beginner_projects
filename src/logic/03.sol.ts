@@ -65,3 +65,8 @@ let when_clk = async () => {
 
 }
 
+const get_button = document.querySelector('#btn') as HTMLButtonElement
+
+get_button.addEventListener('click', () => {
+    when_clk()
+})

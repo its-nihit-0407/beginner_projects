@@ -59,3 +59,7 @@ let when_clk = () => __awaiter(void 0, void 0, void 0, function* () {
         container.appendChild(postdiv);
     }
 });
+const get_button = document.querySelector('#btn');
+get_button.addEventListener('click', () => {
+    when_clk();
+});
