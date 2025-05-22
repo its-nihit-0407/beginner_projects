@@ -1,7 +1,9 @@
 {
-  "builds": [{ "src": "src/endpoint/index.html", "use": "@vercel/static" }],
+  "builds": [
+    { "src": "src/endpoint/index.html", "use": "@vercel/static" }
+  ],
   "routes": [
     { "src": "/dist/(.*)", "dest": "/dist/$1" },
-    { "src": "/(.*)", "dest": "src/$1" }
+    { "src": "/(.*)", "dest": "/src/endpoint/$1" }
   ]
 }
